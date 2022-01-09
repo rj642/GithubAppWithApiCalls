@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable-anydpi/ic_delete.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable-anydpi/ic_send.xml" value="0.1" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable-anydpi/ic_view.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable/custom_background.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/drawable/linear_card_design.xml" value="0.19948717948717948" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/layout/activity_add_repository.xml" value="0.22" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/layout/activity_repository_information.xml" value="0.22" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/layout/repository_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/menu/item_add.xml" value="0.1" />
+        <entry key="..\:/Users/Rahul/AndroidStudioProjects/AssignmentApp/app/src/main/res/menu/item_more_options.xml" value="0.16111111111111112" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

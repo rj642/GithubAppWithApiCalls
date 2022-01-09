@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRepositoryActivity"
+    android:background="#F7F7F7"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/repository_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Repository"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E1E1E1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter owner's name"
+        android:textColor="#000"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner's Name"
+        android:padding="12dp"
+        android:background="@drawable/custom_background"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter repository's name"
+        android:textColor="#000"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_repository_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repository's Name"
+        android:padding="12dp"
+        android:background="@drawable/custom_background"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
+
+    <android.widget.Button
+        android:id="@+id/button_add_to_repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_background"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
